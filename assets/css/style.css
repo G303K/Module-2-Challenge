@@ -69,21 +69,65 @@ p {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
+  line-height: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-
-
-.About-me {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-
 
 img {
   width: 1920px;
   height: 92px;
+}
+
+.container {
+  flex-direction: column;
+}
+
+.header-2 {
+  background-color: #a600d8;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  width: 200px; 
+}
+
+.content {
+  flex-grow: 1;
+  padding: 0px;
+}
+
+.aside-line {
+  width: 1px; /* Set the width of the line */
+  background-color: #a600d8; /* Line color */
+  padding: 20px;
+  box-sizing: border-box; /* Include padding in width calculation */
+  align-items: flex-start;
+}
+
+p {
+  margin-bottom: 20px; /* Adjust the value as needed */
+}
+
+.header-with-line {
+  position: relative;
+  display: inline-block;
+}
+
+.header-with-line::after {
+  content: "";
+  position: absolute;
+  top: 50%; /* Adjust as needed */
+  left: 105%; /* Places the line next to the header */
+  width: 5px; /* Line thickness */
+  height: 100%; /* Adjust the height of the line */
+  background-color: #dc37eb; /* Line color */
+}
+
+.footer {
+  scroll-behavior: auto;
+  padding: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #8a33bd;
+  color: #ffffff;
+  font-size: small;
 }
