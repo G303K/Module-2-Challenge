@@ -100,7 +100,7 @@ span {
   width: 70%;
   height: 70%;
   position: absolute;
-  bottom: 7%;
+  bottom: 10%;
   right: -70px;
 }
 
@@ -109,16 +109,37 @@ span {
   height: 70%;
   position: absolute;
   left: 80%;
-  bottom: -15%;
+  bottom: -35%;
   transform: translateX(-50%);
   transition: bottom 1s, left 1s;
 }
 
 /*When hovered, the shape position will move up*/
 .images:hover .shape {
-  bottom: -12%;
+  bottom: -30%;
 }
 /*When hovered, the image position will move left*/
 .images:hover .portrait {
   left: 70%;
+}
+
+/*Mobile phone/small screen compatability*/
+@media screen and (max-width: 1080px) {
+nav {
+  display: grid;
+  columns: 1;
+  align-items: center;
+}
+
+header {
+  display: grid;
+  columns: 1;
+  align-items: center;
+}
+
+li {
+  display: grid;
+  columns: 1;
+  align-items: center;
+}
 }
