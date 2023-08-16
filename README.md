@@ -22,8 +22,8 @@ Read more about MIT here:
 This application is a homework assignment for the MSU Coding Bootcamp.
 In this challange we were tasked with creating a webpage to serve as a personal portfolio. 
 
-We were to apply concepts learned throughout Modules 1-2 to create a functional and deployed
-website. 
+We were asked to apply concepts learned throughout Modules 1-2 to create a functional and deployed
+website as a starting point for a porfolio that we will continue to update and refine. 
 
 ## Installation
 
@@ -40,9 +40,10 @@ To use, first download the above required applications in [Installation](#instal
 - To view images used and the CSS navigate to the "assets" folder in the repository.
 
 ## Contributors:
-- Homework code source: https://git.bootcampcontent.com/Michigan-State-University/MSU-VIRT-FSF-PT-07-2023-U-LOLC
+- Homework code source and instruction: https://git.bootcampcontent.com/Michigan-State-University/MSU-VIRT-FSF-PT-07-2023-U-LOLC
 - Homework help: https://github.com/mrsargent00
 - Homework help: https://github.com/benrodriguezmoran
+- Homework help: https://github.com/kylesunman
 - README template: https://github.com/reidk361
 
   ## Questions?
