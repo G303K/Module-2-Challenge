@@ -1,6 +1,6 @@
 /*Sets the page margins*/
 * {
-  margin: 0;
+  margin: 6;
   padding: 0;
   font-family: sans-serif;
 }
@@ -9,8 +9,7 @@
 .bgImg {
   width: auto;
   height: auto;
-  background-image: url(file:///C:/Users/CSVco/Desktop/background.png);
-  background-color: white;
+  background-image: url('https://www.creativefabrica.com/wp-content/uploads/2020/12/11/Abstract-dynamic-free-black-background-Graphics-7122026-1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
